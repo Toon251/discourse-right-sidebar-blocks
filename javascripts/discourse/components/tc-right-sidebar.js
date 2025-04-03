@@ -18,7 +18,7 @@ export default {
         if (!settings.hide_on_mobile && this.site.mobileView) {
           return settings.plugin_outlet_mobile;
         } else {
-          return "";
+          return settings.plubin_outlet_desktop;
         }
         
       },

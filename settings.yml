@@ -40,3 +40,5 @@ hide_on_mobile:
   default: true
 plugin_outlet_mobile:
   default: "discovery-below"
+plubin_outlet_desktop:
+  default: "before-list-area"
