@@ -14,9 +14,10 @@ export default {
       )
 
       getPluginOutlet() {
+        console.log(settings.hide_on_mobile, ",", this.site.mobileView)
         if (!settings.hide_on_mobile && this.site.mobileView) {
           return settings.plugin_outlet_mobile;
-        }else{
+        } else {
           return "";
         }
         
