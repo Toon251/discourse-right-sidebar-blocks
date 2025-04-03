@@ -11,6 +11,10 @@
   border-width: 1px;*/
 }
 
+.sidebar-title {
+  background-color: var(--primary-medium);
+}
+
 @media screen and (min-width: 767px) {
   // Show the sidebar at 767px
   .tc-right-sidebar {
@@ -62,6 +66,7 @@
     padding-bottom: 1em;
     border-bottom: 1px solid var(--primary-low);
     margin-bottom: 1em;
+    color: var(--primary-high);
   }
 }
 
