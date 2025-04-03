@@ -38,3 +38,5 @@ show_in_routes:
   choices:
 hide_on_mobile:
   default: true
+plugin_outlet_mobile:
+  default: "dicovery-below"
