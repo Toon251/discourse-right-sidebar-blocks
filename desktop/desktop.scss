@@ -43,9 +43,10 @@
 .rs-component {
   margin-bottom: 1.5em;
   h3 {
-    border-bottom: 1px solid var(--primary-low);
+    //border-bottom: 1px solid var(--primary-low);
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
+    //margin-bottom: 0.5em;
   }
 }
 
