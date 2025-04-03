@@ -13,9 +13,15 @@ export default {
         "router.currentRoute.attributes.tag.id"
       )
       showSidebar(currentRouteName, category, categorySlug, tagId) {
-        if (this.site.mobileView) {
+        /*if (this.site.mobileView) {
+          return false;
+        }*/
+
+        if (settings.hide_on_mobile && this.site.mobileView) {
           return false;
         }
+        
+        
 
         if (settings.show_in_routes !== "") {
           const selectedRoutes = settings.show_in_routes.split("|");
