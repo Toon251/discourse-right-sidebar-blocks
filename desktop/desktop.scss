@@ -5,6 +5,8 @@
 
 .tc-right-sidebar {
   display: block;
+  border-radius: 10px;
+  border-color: var(--primary-low);
 }
 
 @media screen and (min-width: 767px) {
