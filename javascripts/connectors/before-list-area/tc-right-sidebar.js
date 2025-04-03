@@ -18,7 +18,6 @@ export default {
         }*/
 
         if (settings.hide_on_mobile && this.site.mobileView) {
-          console.log("Hide");
           return false;
         }
         
