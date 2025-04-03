@@ -13,8 +13,8 @@ export default {
         "router.currentRoute.attributes.tag.id"
       )
 
-      getPluginOutlet() {
-        console.log(settings.hide_on_mobile, ",", this.site.mobileView)
+      getPluginOutlet () {
+        console.log(this.site.mobileView)
         if (!settings.hide_on_mobile && this.site.mobileView) {
           return settings.plugin_outlet_mobile;
         } else {
