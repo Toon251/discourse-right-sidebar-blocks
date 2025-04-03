@@ -13,14 +13,14 @@ export default {
         "router.currentRoute.attributes.tag.id"
       )
 
-      getPluginOutlet( {
+      getPluginOutlet() {
         if (!settings.hide_on_mobile && this.site.mobileView) {
           return settings.plugin_outlet_mobile;
         }else{
           return "";
         }
         
-      })
+      },
 
       showSidebar(currentRouteName, category, categorySlug, tagId) {
         /*if (this.site.mobileView) {
