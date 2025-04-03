@@ -12,10 +12,17 @@
 }
 
 .sidebar-title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   background-color: #19245c;
   color: white;
   margin-top: 10px;
+  border: 1px solid #ccc; /* Optional: Add a border to see the div */
+  border-radius: 25px;
 }
+
+
 
 @media screen and (min-width: 767px) {
   // Show the sidebar at 767px
