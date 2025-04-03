@@ -39,4 +39,4 @@ show_in_routes:
 hide_on_mobile:
   default: true
 plugin_outlet_mobile:
-  default: "dicovery-below"
+  default: "discovery-below"
