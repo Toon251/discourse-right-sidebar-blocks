@@ -5,6 +5,16 @@
 # https://translate.discourse.org/
 
 th:
+  top_contributors:
+    heading: "ผู้มีส่วนร่วมยอดนิยม"
+    view_all: "แสดงทั้งหมด"
+  popular_tags:
+    heading: "แท็กยอดนิยม"
+    view_all: "แสดงทั้งหมด"
+  recent_replies:
+    heading: "ตอบกลับล่าสุด"
+  top_topics:
+    heading: "หัวข้อยอดนิยม"
   subcategory_list:
     heading: "หมวดหมู่ย่อย"
   category_list:
